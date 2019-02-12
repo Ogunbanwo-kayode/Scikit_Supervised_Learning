@@ -1,6 +1,6 @@
 # Scikit_Supervised_Learning
 sklearn supervised_ python code
-This is a cookbook to aid with structuring thought processes using scikit. Supervised learning is a well established ML abstraction
+This cookbook should help with structuring thought processes in scikit. I had good teachers. ;-)
 
 Please note! 
 #Script is well commented. Do read the comments
