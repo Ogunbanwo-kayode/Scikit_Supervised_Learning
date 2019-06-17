@@ -57,9 +57,10 @@ plt.show()
 # ################## Knn Classifier ################
 
 # This cell will yield a label issue - rightly so too as the data being
-# analysed is not ffit for a classification type algorithm
-# This is simply because we are dealing with a time series continuous data
-# The structure is just a layout that works for the right sort of data
+# analysed is not fit for a classification type algorithm
+# This is simply because the files I use only as placeholders here for guidance
+# is dealing with a time series continuous data
+# The structure is just a layout that works for the right sort of data - categoricals
 
 # Create arrays for the features and the response variable
 y = df['avg_pupil_size'].values
@@ -97,9 +98,9 @@ print("Prediction: {}".format(new_prediction))
 # ############## Measuring the Model Performance ##############
 # ####### Again here you would have a label type value error : 'continuous'
 
-# Exercise based on the sci-kit- inbuilt digit recognition dataset ########
+# rest of this block is based on the sci-kit- inbuilt digit recognition dataset ########
 
-# Import the necessary modules - see top of script for this
+# Import the necessary modules if you hadn't already - see top of script for this
 
 # Load the digits dataset: digits
 digits = datasets.load_digits()
@@ -465,7 +466,7 @@ print("AUC scores computed using 5-fold cross-validation: {}".format(cv_auc))
 ############################################################################
 ############################################################################
 #%%
-# ##########HyperParameter Tuning with GridSearch ########
+# ########## HyperParameter Tuning with GridSearch ########
 
 # Setup the hyperparameter grid
 c_space = np.logspace(-5, 8, 15)
@@ -583,9 +584,9 @@ print("Tuned ElasticNet MSE: {}".format(mse))
 
 # We explore some categorical features - EDA
 
-# Read 'gapminder.csv'(or whatever csv is reqd) into a DataFrame: df
+# Read whatever 'somefileyouhave.csv' into a DataFrame: df
 
-df3 = pd.read_csv('fixations.csv')
+df3 = pd.read_csv('fixations.csv')    # again fixations are of type continuous
 
 print(df3.head())
 
