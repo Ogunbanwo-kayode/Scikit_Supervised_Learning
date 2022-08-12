@@ -762,6 +762,9 @@ parameters = {'SVM__C': [1, 10, 100],
               'SVM__gamma': [0.1, 0.01]}
 
 # Create train and test sets
+
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
                                                     random_state=21)
 
@@ -812,3 +815,7 @@ print("Tuned ElasticNet R squared: {}".format(r2))
 
 ##########################################################################
 ##########################################################################
+
+# Checking on how to use git
+
+This was added on checking how to use git and github
