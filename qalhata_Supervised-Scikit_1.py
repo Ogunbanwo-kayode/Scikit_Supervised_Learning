@@ -815,7 +815,3 @@ print("Tuned ElasticNet R squared: {}".format(r2))
 
 ##########################################################################
 ##########################################################################
-
-# Checking on how to use git
-
-This was added on checking how to use git and github
